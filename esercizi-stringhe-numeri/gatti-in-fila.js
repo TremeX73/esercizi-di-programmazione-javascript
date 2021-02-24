@@ -20,4 +20,17 @@
 
 
 
-//nuova riga di prova   
+
+//variabili
+numero_gatti = 36
+gatti_in_fila = 12
+
+//calcolo delle file
+numero_file = Math.ceil(numero_gatti / gatti_in_fila)
+//calcolo dei gatti che mancano nell'ultima fila
+gatti_mancanti = numero_file * gatti_in_fila - numero_gatti
+
+console.log("numero totale di gatti: " + numero_gatti)
+console.log("gatti in una fila: " + gatti_in_fila)
+console.log("file di gatti: " + numero_file)
+console.log("gatti mancanti nell'ultima fila: " + gatti_mancanti)
