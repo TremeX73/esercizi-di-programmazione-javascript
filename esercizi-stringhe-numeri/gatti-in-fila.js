@@ -22,7 +22,7 @@
 
 
 //variabili
-numero_gatti = 36
+numero_gatti = 35
 gatti_in_fila = 12
 
 //calcolo delle file

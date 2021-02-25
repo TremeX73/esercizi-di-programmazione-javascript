@@ -12,3 +12,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+numero_secondi = 12560
+ore = Math.floor(numero_secondi / (60 * 60))
+minuti = Math.floor(numero_secondi / 60) - ore * 60
+secondi = numero_secondi - ore * 60 * 60 - minuti * 60
+
+console.log("ore: " + ore)
+console.log("minuti: " + minuti)
+console.log("secondi: " + secondi)
